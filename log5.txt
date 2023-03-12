@@ -1,0 +1,179 @@
+C:\Users\Wask\Documents\PlatformIO\Projects\AduinoControlledRemote>python Host_Remote_v2.1.py
+b'Setup OK\r\n'
+speed in bytes  b'50'
+Rot in bytes  b'50'
+b'Speed 53\r\n'
+speed in bytes  b'50'
+Rot in bytes  b'50'
+b'Rot 53\r\n'
+speed in bytes  b'50'
+Rot in bytes  b'50'
+b'Speed 53\r\n'
+speed in bytes  b'50'
+Rot in bytes  b'50'
+b'Rot 53\r\n'
+speed in bytes  b'50'
+Rot in bytes  b'50'
+b'Speed 53\r\n'
+speed in bytes  b'50'
+Rot in bytes  b'50'
+b'Rot 53\r\n'
+speed in bytes  b'50'
+Rot in bytes  b'50'
+b'Speed 53\r\n'
+dir  decrement 40
+speed in bytes  b'50'
+Rot in bytes  b'40'
+right
+b'Rot 53\r\n'
+dir  decrement 30
+speed in bytes  b'50'
+Rot in bytes  b'30'
+b'Speed 53\r\n'
+dir  decrement 20
+speed in bytes  b'50'
+Rot in bytes  b'20'
+b'Rot 53\r\n'
+dir  decrement 10
+speed in bytes  b'50'
+Rot in bytes  b'10'
+b'Speed 53\r\n'
+dir  decrement 0
+speed in bytes  b'50'
+Rot in bytes  b'0'
+b'Rot 53\r\n'
+dir  increment 10
+speed in bytes  b'50'
+Rot in bytes  b'10'
+b'Speed 53\r\n'
+dir  increment 20
+speed in bytes  b'50'
+Rot in bytes  b'20'
+left
+b'Rot 53\r\n'
+dir  increment 30
+speed in bytes  b'50'
+Rot in bytes  b'30'
+b'Speed 53\r\n'
+speed  increment 60
+dir  increment 40
+speed in bytes  b'60'
+Rot in bytes  b'40'
+up+left
+b'Rot 52\r\n'
+speed  decrement 50
+dir  decrement 30
+speed in bytes  b'50'
+Rot in bytes  b'30'
+right
+b'Speed 53\r\n'
+dir  decrement 20
+speed in bytes  b'50'
+Rot in bytes  b'20'
+b'Rot 51\r\n'
+dir  increment 30
+speed in bytes  b'50'
+Rot in bytes  b'30'
+neutral
+b'Speed 53\r\n'
+dir  increment 40
+speed in bytes  b'50'
+Rot in bytes  b'40'
+left
+b'Rot 50\r\n'
+dir  increment 50
+speed in bytes  b'50'
+Rot in bytes  b'50'
+b'Speed 53\r\n'
+speed in bytes  b'50'
+Rot in bytes  b'50'
+neutral
+b'Rot 49\r\n'
+speed  increment 60
+speed in bytes  b'60'
+Rot in bytes  b'50'
+up
+b'Speed 53\r\n'
+speed  decrement 50
+speed in bytes  b'50'
+Rot in bytes  b'50'
+neutral
+b'Rot 48\r\n'
+dir  decrement 40
+speed in bytes  b'50'
+Rot in bytes  b'40'
+right
+b'Speed 53\r\n'
+dir  decrement 30
+speed in bytes  b'50'
+Rot in bytes  b'30'
+b'Rot 49\r\n'
+dir  decrement 20
+speed in bytes  b'50'
+Rot in bytes  b'20'
+b'Speed 53\r\n'
+dir  increment 30
+speed in bytes  b'50'
+Rot in bytes  b'30'
+neutral
+b'Rot 50\r\n'
+speed  increment 60
+dir  increment 40
+speed in bytes  b'60'
+Rot in bytes  b'40'
+up
+b'Speed 53\r\n'
+speed  increment 70
+dir  increment 50
+speed in bytes  b'70'
+Rot in bytes  b'50'
+b'Rot 51\r\n'
+speed  increment 80
+speed in bytes  b'80'
+Rot in bytes  b'50'
+b'Speed 54\r\n'
+speed  increment 90
+speed in bytes  b'90'
+Rot in bytes  b'50'
+b'Rot 52\r\n'
+speed  decrement 80
+speed in bytes  b'80'
+Rot in bytes  b'50'
+down
+b'Speed 53\r\n'
+speed  decrement 70
+speed in bytes  b'70'
+Rot in bytes  b'50'
+b'Rot 51\r\n'
+speed  decrement 60
+speed in bytes  b'60'
+Rot in bytes  b'50'
+b'Speed 53\r\n'
+speed  decrement 50
+speed in bytes  b'50'
+Rot in bytes  b'50'
+b'Rot 50\r\n'
+speed  decrement 40
+speed in bytes  b'40'
+Rot in bytes  b'50'
+b'Speed 53\r\n'
+speed  decrement 30
+speed in bytes  b'30'
+Rot in bytes  b'50'
+b'Rot 51\r\n'
+speed  increment 40
+speed in bytes  b'40'
+Rot in bytes  b'50'
+neutral
+b'Speed 53\r\n'
+speed  increment 50
+speed in bytes  b'50'
+Rot in bytes  b'50'
+Traceback (most recent call last):
+  File "Host_Remote_v2.1.py", line 113, in <module>
+    update_state(  new_state = "neutral" , target_tab = [ 50 , 50 ] ,  letter_sent_to_arduino = "I")
+  File "Host_Remote_v2.1.py", line 50, in update_state
+    sleep(0.05)
+KeyboardInterrupt
+
+C:\Users\Wask\Documents\PlatformIO\Projects\AduinoControlledRemote>python Host_Remote_v2.1.py

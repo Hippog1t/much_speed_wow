@@ -1,0 +1,159 @@
+
+C:\Users\Wask\Documents\PlatformIO\Projects\AduinoControlledRemote>python Host_Remote_v2.1.py
+b'Setup OK\r\n'
+b'Speed 53\r\n'
+b'Rot 53\r\n'
+b'Speed 53\r\n'
+b'Rot 53\r\n'
+b'Speed 53\r\n'
+b'Rot 53\r\n'
+b'Speed 53\r\n'
+b'Rot 53\r\n'
+b'Speed 53\r\n'
+b'Rot 53\r\n'
+b'Speed 53\r\n'
+b'Rot 53\r\n'
+b'Speed 53\r\n'
+increment 60
+left
+b'Rot 53\r\n'
+increment 70
+b'Speed 53\r\n'
+increment 80
+b'Rot 53\r\n'
+decrement 70
+neutral
+b'Speed 53\r\n'
+decrement 60
+b'Rot 53\r\n'
+decrement 50
+right
+b'Speed 53\r\n'
+decrement 40
+b'Rot 53\r\n'
+decrement 30
+b'Speed 53\r\n'
+decrement 20
+b'Rot 53\r\n'
+decrement 10
+b'Speed 53\r\n'
+increment 20
+neutral
+b'Rot 53\r\n'
+increment 30
+b'Speed 53\r\n'
+increment 40
+b'Rot 53\r\n'
+increment 50
+b'Speed 53\r\n'
+b'Rot 54\r\n'
+b'Speed 53\r\n'
+increment 60
+left
+b'Rot 55\r\n'
+increment 70
+b'Speed 53\r\n'
+increment 80
+b'Rot 56\r\n'
+increment 90
+b'Speed 53\r\n'
+increment 100
+b'Rot 55\r\n'
+decrement 90
+b'Speed 53\r\n'
+decrement 80
+neutral
+b'Rot 54\r\n'
+decrement 70
+b'Speed 53\r\n'
+decrement 60
+b'Rot 53\r\n'
+increment 70
+left
+b'Speed 53\r\n'
+increment 80
+b'Rot 52\r\n'
+increment 90
+b'Speed 53\r\n'
+increment 100
+b'Rot 51\r\n'
+decrement 90
+b'Speed 53\r\n'
+decrement 80
+neutral
+b'Rot 50\r\n'
+decrement 70
+b'Speed 53\r\n'
+decrement 60
+b'Rot 49\r\n'
+increment 70
+left
+b'Speed 53\r\n'
+decrement 60
+neutral
+b'Rot 50\r\n'
+decrement 50
+b'Speed 53\r\n'
+b'Rot 51\r\n'
+increment 60
+left
+b'Speed 53\r\n'
+increment 70
+b'Rot 52\r\n'
+increment 80
+b'Speed 53\r\n'
+increment 90
+b'Rot 53\r\n'
+increment 100
+b'Speed 53\r\n'
+decrement 90
+b'Rot 53\r\n'
+increment 100
+b'Speed 53\r\n'
+decrement 90
+b'Rot 53\r\n'
+increment 100
+b'Speed 53\r\n'
+decrement 90
+b'Rot 54\r\n'
+increment 100
+b'Speed 53\r\n'
+decrement 90
+b'Rot 55\r\n'
+increment 100
+b'Speed 53\r\n'
+decrement 90
+b'Rot 56\r\n'
+increment 100
+b'Speed 53\r\n'
+decrement 90
+b'Rot 57\r\n'
+increment 100
+b'Speed 53\r\n'
+decrement 90
+b'Rot 49\r\n'
+increment 100
+b'Speed 53\r\n'
+decrement 90
+b'Rot 57\r\n'
+decrement 80
+neutral
+b'Speed 53\r\n'
+decrement 70
+b'Rot 56\r\n'
+decrement 60
+b'Speed 53\r\n'
+decrement 50
+b'Rot 55\r\n'
+b'Speed 53\r\n'
+b'Rot 54\r\n'
+b'Speed 53\r\n'
+b'Rot 55\r\n'
+Traceback (most recent call last):
+  File "Host_Remote_v2.1.py", line 113, in <module>
+    update_state(  new_state = "neutral" , target_tab = [ 50 , 50 ] ,  letter_sent_to_arduino = "I")
+  File "Host_Remote_v2.1.py", line 48, in update_state
+    sleep(0.05)
+KeyboardInterrupt
+
+C:\Users\Wask\Documents\PlatformIO\Projects\AduinoControlledRemote>p

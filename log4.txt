@@ -1,0 +1,64 @@
+C:\Users\Wask\Documents\PlatformIO\Projects\AduinoControlledRemote>python Host_Remote_v2.1.py
+b'Spee\xffSetup OK\r\n'
+b'Speed 53\r\n'
+b'Rot 53\r\n'
+b'Speed 53\r\n'
+b'Rot 53\r\n'
+b'Speed 53\r\n'
+b'Rot 53\r\n'
+b'Speed 53\r\n'
+dir  increment 60
+left
+b'Rot 53\r\n'
+dir  increment 70
+b'Speed 53\r\n'
+dir  increment 80
+b'Rot 53\r\n'
+dir  increment 90
+b'Speed 53\r\n'
+dir  increment 100
+b'Rot 53\r\n'
+dir  decrement 90
+neutral
+b'Speed 53\r\n'
+dir  decrement 80
+right
+b'Rot 53\r\n'
+dir  decrement 70
+b'Speed 53\r\n'
+dir  decrement 60
+b'Rot 54\r\n'
+dir  decrement 50
+b'Speed 53\r\n'
+neutral
+b'Rot 55\r\n'
+dir  increment 60
+left
+b'Speed 53\r\n'
+dir  increment 70
+b'Rot 56\r\n'
+dir  increment 80
+b'Speed 53\r\n'
+speed  decrement 40
+dir  decrement 70
+down
+b'Rot 57\r\n'
+speed  decrement 30
+dir  decrement 60
+b'Speed 53\r\n'
+speed  increment 40
+dir  decrement 50
+up+right
+b'Rot 49\r\n'
+speed  increment 50
+neutral
+b'Speed 53\r\n'
+b'Rot 57\r\n'
+Traceback (most recent call last):
+  File "Host_Remote_v2.1.py", line 113, in <module>
+    update_state(  new_state = "neutral" , target_tab = [ 50 , 50 ] ,  letter_sent_to_arduino = "I")
+  File "Host_Remote_v2.1.py", line 50, in update_state
+    sleep(0.05)
+KeyboardInterrupt
+
+C:\Users\Wask\Documents\PlatformIO\Projects\AduinoControlledRemote>python Host_Remote_v2.1.py
